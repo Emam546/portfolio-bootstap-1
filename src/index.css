@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap');
+
+:root{
+    --dark-color:#19283F;
+    --red-color:#FF3150;
+    --green-color:#33D1CC;
+    --yellow-color:#FFC400;
+    --section-color:#EFF7FA;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0.5rem 0 !important;
+}
+.green-color{
+    color: var(--green-color) !important;
+}
+.yellow-color{
+    color: var(--yellow-color) !important;
+}
+.red-color{
+    color: var(--red-color) !important;
+}
+.dark-color{
+    color: var(--dark-color) !important;
+}
+.section-color{
+    color: var(--section-color) !important;
+}
+.green-bg{
+    background-color: var(--green-color) !important;
+}
+.yellow-bg{
+    background-color: var(--yellow-color) !important;
+}
+.red-bg{
+    background-color: var(--red-color) !important;
+}
+.section-bg{
+    background-color: var(--section-color) !important;
+}
+.p-section{
+    padding: 5rem 0;
+}
+.dark-bg{
+    background-color: var(--dark-color) !important;
+}
+

@@ -1,0 +1,13 @@
+.subscribe input[type="email"]{
+    border:none;
+    border-bottom: 2px solid white;
+    color: white;
+    background-color: transparent;
+    
+}
+.subscribe input[type="email"]::placeholder{
+    color: white;
+}
+.subscribe input[type="email"]:focus{
+    outline: none;
+}

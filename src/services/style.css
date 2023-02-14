@@ -1,0 +1,26 @@
+.special-heading{
+    position: relative;
+}
+.special-heading::after{
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: var(--green-color);
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.services .icon-holder{
+    height: 17rem;
+}
+.services .icon-holder i{
+    left: 50%;
+    transform: translateX(-50%);
+}
+.services .icon-holder .icon{
+    font-size: 5rem;
+}
+.services .icon-holder .number{
+    font-size: 17rem;
+}

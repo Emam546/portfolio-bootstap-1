@@ -1,0 +1,24 @@
+.facebook {
+    --color: #1877F2
+}
+
+.twitter {
+    --color: #1DA1F2;
+}
+
+.linkedin {
+    --color: #0077B5;
+}
+
+.youtube {
+    --color: #FF0000;
+}
+.footer .social-icons a{
+    text-decoration: none;
+}
+.footer .social-icons i{
+    background-color: var(--color);
+    color: white;
+    border-radius: 50%;
+    padding: 0.7rem;
+}
